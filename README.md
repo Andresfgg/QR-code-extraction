@@ -22,11 +22,12 @@ To get started with running the QR code detection program locally, follow the st
 ```bash
 pip install -r requirements.txt
 ```
+You might need to add the --user flag at the end of the command if you run into problems with administrative privileges.
 
 ## Usage
 1. Run the FastAPI using the following command:
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 This will start the app and make it accessible at http://localhost:8000.
 
