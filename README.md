@@ -1,5 +1,7 @@
+![change](https://github.com/Andresfgg/QR-code-extraction/assets/13282173/5e73c6a2-1dba-41bf-9227-b63f6e67b5a2)
 # QR-code-extraction
-Extraction of QR codes from images using Yolov8. This project uses a pre-trained machine learning model to detect QR codes from images.
+Extraction of QR
+ codes from images using Yolov8. This project uses a pre-trained machine learning model to detect QR codes from images.
 
 The base model used is an instance of Yolov8 finetuned using 410 images with qr codes. For more information about the training open the jupyter notebook train.ipynb inside the Training folder.
 
