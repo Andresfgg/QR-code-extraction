@@ -31,7 +31,7 @@ python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 This will start the app and make it accessible at http://localhost:8000.
 
-2. Open a new terminal and navigate to the repository where you have your image
+2. Open a new CMD window and navigate to the repository where you have your image
 3. Use the 'curl' command to send a POST request to the endpoint
 ```bash
 curl -X POST -F "file=@path_to_your_image.jpg" http://localhost:8000/detect_qr/ --output output.jpg
